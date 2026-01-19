@@ -49,8 +49,10 @@ Each chunk is enriched with metadata:
 - `source_file` → Original file name
 
 ### 5. FAISS Storage Structure
-All chunks are stored as embeddings in the following structure:
 
+All chunks are stored as embeddings inside the `faiss_db` folder using this folder hierarchy:
+
+```text
 faiss_db/
 ├── HVAC/
 │   ├── file_1/
@@ -59,6 +61,7 @@ faiss_db/
 │   ├── file_3/
 ├── Roofing/
 │   ├── file_4/
+
 
 Each **file has its own FAISS index** inside its category.
 
