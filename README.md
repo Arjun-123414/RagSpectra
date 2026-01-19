@@ -128,13 +128,14 @@ streamlit run app.py
 
 ### 3. Context Formatting
 Retrieved chunks are grouped clearly like:
-
+```text
 ============================================================
 FILE: vendor_bid_1.pdf
 ============================================================
 [Chunk 1]
 [Chunk 2]
 [Chunk 3]
+```
 
 This structured context is sent to the LLM.
 
@@ -178,4 +179,3 @@ The LLM is strictly instructed to:
 
 ---
 
-Built with ❤️ using Python, Streamlit, LangChain, FAISS, and OpenAI
