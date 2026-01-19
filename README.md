@@ -33,6 +33,10 @@ python main.py
 - Generates embeddings and saves them into FAISS vector stores
 - Writes chunk information into `chunk_output.txt` for visibility
 
+1. After you run this code `faiss_db` folder will be created
+2. `chunk_output.txt` file will be created
+You can checkout both
+
 ### Category Classification Logic
 
 Only the most relevant chunks are sent to the LLM.  
