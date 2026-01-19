@@ -61,7 +61,7 @@ faiss_db/
 │   ├── file_3/
 ├── Roofing/
 │   ├── file_4/
-
+```
 
 Each **file has its own FAISS index** inside its category.
 
