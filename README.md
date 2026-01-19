@@ -94,3 +94,7 @@ streamlit run app.py
 3. (Optional) Run `view_faiss.py` to inspect FAISS structure
 4. Run `streamlit run app.py` to launch the chat interface
 5. Select a category and ask questions using natural language
+
+## app interface:
+<img width="1912" height="960" alt="image" src="https://github.com/user-attachments/assets/665b9e16-3d04-422f-9421-15e28ec160e6" />
+
