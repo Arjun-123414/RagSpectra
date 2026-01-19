@@ -21,7 +21,9 @@ This ensures embeddings and chunks are rebuilt from scratch.
 
 Run the following command:
 
+```text
 python main.py
+```
 
 ---
 
@@ -85,8 +87,9 @@ This makes the classification process fully auditable.
 ## 📂 Inspecting FAISS Storage (Recommended)
 
 After running `main.py`, execute:
-
+```text
 python view_faiss.py
+```
 
 ---
 
@@ -109,7 +112,9 @@ This is useful to understand:
 
 Launch the interactive chat interface:
 
+```text
 streamlit run app.py
+```
 
 ---
 
